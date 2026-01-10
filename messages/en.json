@@ -1,0 +1,335 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language"
+  },
+
+  "LocaleLayout": {
+    "title": "Plastiliin",
+    "description": "Tallinn Children's Development and Creative Center"
+  },
+
+  "IndexPage": {
+    "meta": {
+      "title": "Plastiliin. Tallinn Educational and Developmental Center for Children",
+      "description": "An educational and developmental center in Tallinn for children and adults: neuro-gymnastics, speech therapy, Numicon math, piano lessons, logorhythmics, and Lego engineering. Classes are held offline in Ukrainian, Russian, English, and Estonian with a personalized approach for every learner."
+    },
+
+    "title": "Plastiliin — developmental & correctional center in Tallinn | speech therapy, neuro-gymnastics, Numicon",
+    "about": "Plastiliin is a modern educational center in Tallinn for children and adults. Individual sessions in speech therapy, neuro-gymnastics, Numicon math, piano, logorhythmics, and Lego engineering. Instruction available in English, Ukrainian, Russian, and Estonian.",
+
+    "contact": "Get in touch"
+  },
+
+  "Navigation": {
+    "home": "home en"
+  },
+
+  "ContactHeader": {
+    "title": "Contacts"
+  },
+
+  "Hero": {
+    "hidden": "Plastiliin — developmental & correctional center in Tallinn | speech therapy, neuro-gymnastics, Numicon",
+    "subtitle": "Tallinn Children's Development and Creative Center",
+    "title_all": "Unlock the potential of your child together",
+    "title_1": "Unlock the ",
+    "title_2": "potential",
+    "title_3": "of your child ",
+    "title_4": "together",
+
+    "link1_name": "Find out how we can help today!",
+    "link1_href": "https://www.picktime.com/aee93cf3-7781-4ff0-9199-36afe991ccd3"
+  },
+
+  "Metodology": {
+    "subtitle": "Methodology",
+    "title_1": "Our Values",
+    "title_2": "and Approach",
+    "description": "We use the most modern methods in the field of neuropsychology, correctional pedagogy and sensorimotor integration to help children discover their potential. Our approach is individual and exciting lessons that develop speech, thinking, emotional intelligence, motor skills, spatial intelligence, logic, imagination and creativity.",
+    "description_2": "Every child is unique, and we approach each one with attention and care, creating a personalized learning and development program to achieve maximum results. Our specialists help children develop while enjoying the learning process!",
+    "button_text": "Join us!",
+    "button_link": "#contact"
+  },
+
+  "Programs": {
+    "section1_title": "Neurogymnastics",
+    "section1_id": "neurogym",
+    "section1_description": "A unique method of brain training aimed at developing and improving cognitive functions (memory, attention, perception) and coordination. Classes include exercises that activate and synchronize the work of both hemispheres of the brain, develop fine motor skills, memory, speech, improve the perception and processing of new information. Classes in a mobile and exciting form contribute to the comprehensive harmonious development of your child.",
+    "section1_button_text": "Ask a question",
+    "section1_button_link": "#contact",
+    "section1_bg_color": "var(--red)",
+    "section1_bg_img": "/./programs/neiro.webp",
+    "section1_bg_img_small": "/./programs/neiro-s.webp",
+    "section1_icon": "/./programs/icons/icon/puzzle.webp",
+    "section1_icon_active": "/./programs/icons/active/puzzle-a.webp",
+
+    "section2_title": "Logorhythmics",
+    "section2_id": "logorhythmics",
+    "section2_description": "An effective method of speech correction and development that is based on a combination of movements, rhythm and music. This approach helps children with speech disorders improve coordination, breathing, articulation and communication skills.",
+    "section2_button_text": "Ask a question",
+    "section2_button_link": "#contact",
+    "section2_bg_color": "var(--blue)",
+    "section2_bg_img": "/./programs/rithm.webp",
+    "section2_bg_img_small": "/./programs/rithm-s.webp",
+    "section2_icon": "/./programs/icons/icon/maracas.webp",
+    "section2_icon_active": "/./programs/icons/active/maracas-a.webp",
+
+    "section3_title": "Numicon: Exciting Mathematics",
+    "section3_id": "numicon",
+    "section3_description": "An innovative method of learning mathematics through tactile and visual images. Thanks to special plates and a game approach, children easily master the basics of counting, addition, subtraction and even more complex mathematical concepts, developing logical thinking.",
+    "section3_button_text": "Ask a question",
+    "section3_button_link": "#contact",
+    "section3_bg_color": "var(--yellow)",
+    "section3_bg_img": "/./programs/math.webp",
+    "section3_bg_img_small": "/./programs/math-s.webp",
+    "section3_icon": "/./programs/icons/icon/abacus.webp",
+    "section3_icon_active": "/./programs/icons/active/abacus-a.webp",
+
+    "section4_title": "Speech Therapist",
+    "section4_id": "speechtherapist",
+    "section4_description": "Sessions with a speech therapist help children, including those with special educational needs, develop speech, attention (visual and auditory), intelligence and promote social adaptation. An individual approach allows us to take into account the interests of each child and select effective methods of correction and development.",
+    "section4_button_text": "Ask a question",
+    "section4_button_link": "#contact",
+    "section4_bg_color": "var(--green)",
+    "section4_bg_img": "/./programs/logoped.webp",
+    "section4_bg_img_small": "/./programs/logoped-s.webp",
+    "section4_icon": "/./programs/icons/icon/lamp.webp",
+    "section4_icon_active": "/./programs/icons/active/lamp-a.webp",
+
+    "section5_title": "Piano Lessons",
+    "section5_id": "piano",
+    "section5_description": "Individual piano lessons for children and adults. The training takes place in a positive atmosphere, taking into account the child's level of preparation and interests. Playing the piano affects intellect, emotions, motor skills and even forms personal qualities. Learning to play the piano is not just mastering notes and melodies, but a powerful contribution to the child's future.",
+    "section5_button_text": "Ask a question",
+    "section5_button_link": "#contact",
+    "section5_bg_color": "var(--purple)",
+    "section5_bg_img": "./programs/piano.webp",
+    "section5_bg_img_small": "./programs/piano-s.webp",
+    "section5_icon": "/./programs/icons/icon/piano.webp",
+    "section5_icon_active": "/./programs/icons/active/piano-a.webp",
+
+    "section6_title": "Lego Construction",
+    "section6_id": "lego",
+    "section6_description": "Developing engineering, creative, and logical skills through Lego model assembly. Children learn to follow building instructions, enhance spatial thinking, and boost imagination. The program includes both free construction and project-based tasks to encourage teamwork.",
+    "section6_button_text": "Ask a question",
+    "section6_button_link": "#contact",
+    "section6_bg_color": "var(--orange)",
+    "section6_bg_img": "/./programs/lego.webp",
+    "section6_bg_img_small": "/./programs/lego-s.webp",
+    "section6_icon": "/./programs/icons/icon/lego.webp",
+    "section6_icon_active": "/./programs/icons/active/lego-a.webp"
+  },
+
+  "Team": {
+    "title": "Our team",
+
+    "1_member_name": "Olga Gushchyna",
+    "1_member_description": "Speech therapist, defectologist, correctional teacher and specialist in the development of mathematical skills using the Numicon method. Also an expert in the field of neurogymnastics.",
+    "1_member_subtitle": "Motto:",
+    "1_member_ideea": "The main thing in teaching children is to create a process in which they do not notice the effort and develop with pleasure.",
+    "2_member_name": "Olga Lanska",
+    "2_member_description": "A specialist in logorhythmics, developing children's creativity and teaching piano. Her methods help children to discover their potential, turning learning into an exciting journey.",
+    "2_member_subtitle": "Motto:",
+    "2_member_ideea": "Love, acceptance, understanding, support, and a little creativity work wonders in education."
+  },
+
+  "Testimonials": {
+    "section_title": "Testimonials",
+    "title": "We are working with amazing people",
+
+    "testimonial1_description": "Thanks to excellent lessons with a speech therapist, my son can now communicate more easily. An individual approach is very important to me. I appreciate the patience and professionalism of the specialist.",
+    "testimonial1_author_name": "Anna",
+    "testimonial1_author_status": "Sasha's mom (4 years)",
+    "testimonial1_bg_color": "var(--yellow)",
+
+    "testimonial2_description": "Neurogymnastics classes have significantly influenced my daughter's developmental progress. She has become more confident in her abilities, and we are grateful for the caring approach of the teacher.",
+    "testimonial2_author_name": "Irina",
+    "testimonial2_author_status": "Darina's mom (6 years)",
+    "testimonial2_bg_color": "var(--green)",
+
+    "testimonial3_description": "My son loves play-based learning! Active games captivate him, and I see significant improvements in his speech development. I am very pleased with the results!",
+    "testimonial3_author_name": "Mikhail",
+    "testimonial3_author_status": "Mark's dad (3 years)",
+    "testimonial3_bg_color": "var(--blue)",
+
+    "testimonial4_description": "Alina really likes neurogymnastics classes. They helped my daughter with coordination and concentration. The exercises are interesting and really effective!",
+    "testimonial4_author_name": "Tatiana",
+    "testimonial4_author_status": "Alina's mom (5 years)",
+    "testimonial4_bg_color": "var(--red)",
+
+    "testimonial5_description": "My son has been learning piano for several months now and is enjoying it immensely. He is not only learning to play the piano but also developing his creative potential.",
+    "testimonial5_author_name": "Mira",
+    "testimonial5_author_status": "Stas's mom (9 years)",
+    "testimonial5_bg_color": "var(--orange)",
+
+    "testimonial6_description": "Maths lessons using Numicon are great! My son learns math concepts in a fun and creative way. This approach helps him understand abstract concepts better.",
+    "testimonial6_author_name": "Natalia",
+    "testimonial6_author_status": "Anton's mom (7 years)",
+    "testimonial6_bg_color": "var(--purple)",
+
+    "testimonial7_description": "Neurogymnastics classes have had a positive effect on my son's behavior and his ability to concentrate at school. He has become calmer and can concentrate for longer periods of time. I recommend it!",
+    "testimonial7_author_name": "Olga",
+    "testimonial7_author_status": "Nikita's mom (8 years)",
+    "testimonial7_bg_color": "var(--yellow)",
+
+    "testimonial8_description": "Many thanks to the speech therapist for productive lessons with my son. My son goes to lessons with pleasure and does not want to leave afterwards.",
+    "testimonial8_author_name": "Victoria",
+    "testimonial8_author_status": "Vanya's mom (4 years)",
+    "testimonial8_bg_color": "var(--green)",
+
+    "testimonial9_description": "My daughter started playing piano from scratch and now she plays beautiful melodies. Her teacher is patient and creative. I see improvements in her skills after each lesson.",
+    "testimonial9_author_name": "Lily",
+    "testimonial9_author_status": "Olivia's mom (10 years)",
+    "testimonial9_bg_color": "var(--blue)"
+  },
+
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "contacts",
+    "description_title": "We are waiting for you!",
+    "description": "Fill out the form, sign up, and join us today!",
+    "description_2": "Classes take place in a convenient location in the center of Tallinn, just a few steps from the Ülase and Taksopark stops (bus, trolleybus).",
+    "description_3": "Free parking for up to 2 hours with parking meters in front of the building entrance.",
+    "description_links": "Follow us on social media!",
+
+    "address_title": "Address",
+    "adress": "10613 Tallinn, Tulika tn 15-17, korp. A, ruum 210",
+    "adress_buttnon": "View on Google Maps",
+    "adress_link": "https://www.google.com/maps/place/O%C3%9C+Plastiliin/@59.4297083,24.7191264,16z/data=!4m6!3m5!1s0x4692955decfdb183:0xa39c8f4813bc236e!8m2!3d59.4298162!4d24.7193964!16s%2Fg%2F11lzhbn9z1?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D",
+    "phone_title": "Telephone",
+    "phone": "+3 (72) 58302501",
+    "email_title": "Email",
+    "email": "Olga.gushchynaou@gmail.com",
+
+    "form_first_name": "First Name",
+    "form_last_name": "Last Name",
+    "from_email": "Email",
+    "form_phone_number": "Phone Number",
+    "form_message": "Message",
+    "form_button_txt": "Send",
+    "form_terms": "I have read the terms and conditions and agree to submit the information I have entered.",
+
+    "errors_firstNameRequired": "First name cannot be empty.",
+    "errors_firstNameInvalid": "First name must contain only letters.",
+    "errors_lastNameRequired": "Last name cannot be empty.",
+    "errors_lastNameInvalid": "Last name must contain only letters.",
+    "errors_emailRequired": "Email cannot be empty.",
+    "errors_emailInvalid": "Invalid email format.",
+    "errors_phoneRequired": "Phone number cannot be empty.",
+    "errors_phoneInvalid": "Phone number must contain between 10 and 15 digits.",
+    "errors_messageRequired": "Message cannot be empty.",
+    "errors_messageShort": "Message must be at least 10 characters long.",
+    "errors_messageLong": "Message must not exceed 500 characters.",
+    "errors_termsRequired": "You must accept the terms before submitting.",
+
+    "form_success_title": "Message Sent!",
+    "form_success_text": "We have received your request and will contact you soon.",
+    "form_error_sending_title": "Sending Error",
+    "form_error_sending_description": "An error occurred. Please try again later.",
+    "form_modal_button_txt": "Close"
+  },
+
+  "Price": {
+    "subtitle": "Pricing",
+    "title": "Education at an affordable price!",
+    "description": "Choose the optimal learning format for your child! We offer individual and group lessons tailored to different needs and skill levels. Flexible pricing and effective methods will help achieve the best results.",
+
+    "card_1_name": "Private Lessons",
+    "card_1_id": "tier-hobby",
+    "card_1_href": "https://www.picktime.com/aee93cf3-7781-4ff0-9199-36afe991ccd3",
+    "card_1_buttomn_title": "Book appointment",
+    "card_1_priceMonthly": "20 €",
+    "card_1_priceTime": "/ 30 minutes",
+    "card_1_description": "Personalized one-on-one lessons tailored to your child's level and needs. Maximum attention from the teacher and an individual approach for rapid progress.",
+    "card_1_feature_1": "Personalized learning program",
+    "card_1_feature_2": "Flexible schedule",
+    "card_1_feature_3": "Focus on strengths and areas for improvement",
+    "card_1_feature_4": "Achieve results in the shortest time",
+
+    "card_2_name": "Small Group Lessons",
+    "card_2_id": "tier-team",
+    "card_2_href": "https://www.picktime.com/aee93cf3-7781-4ff0-9199-36afe991ccd3",
+    "card_2_buttomn_title": "Book appointment",
+    "card_2_priceMonthly": "10 €",
+    "card_2_priceTime": "/ 50 minutes",
+    "card_2_description": "Dynamic lessons in small groups, creating a supportive learning atmosphere. We develop cooperation skills and mutual support.",
+    "card_2_feature_1": "Small groups (up to 4 children)",
+    "card_2_feature_2": "Interaction with peers",
+    "card_2_feature_3": "Motivation and team spirit",
+    "card_2_feature_4": "Communication skills development",
+    "card_2_feature_5": "Affordable price",
+
+    "extra_card_subtitle": "Not sure which option is the best?",
+    "extra_card_description": "Leave a request, and we will help you choose the optimal learning format based on your child's needs."
+  },
+
+  "Footer": {
+    "copyright": "2025 OÜ Plastiliin, Reg.Nr.:  17104206, KMKR: EE102838303. All rights reserved",
+    "create": "Designed and developed by Dvi",
+    "create_link": "https://www.instagram.com/olga_tenison/",
+    "policy": "Privacy Policy"
+  },
+
+  "Cookies": {
+    "title": "Do you like cookies?",
+    "text": "We use different types of cookies to improve your user experience. If you don't mind, please accept their use.",
+    "buttonaccepted": "Accept all",
+    "buttonrejected": "Reject all"
+  },
+
+  "PrivacyPolicyPage": {
+    "subtitle": "Privacy Policy",
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: April 17, 2025",
+    "intro_text": "This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.",
+
+    "interpretation_title": "Interpretation and Definitions",
+    "interpretation_text": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.",
+    "definitions_title": "Definitions",
+    "definitions_intro": "For the purposes of this Privacy Policy:",
+    "definitions": {
+      "Account": {
+        "definition": "A unique account created for You to access our Service or parts of our Service."
+      },
+      "Affiliate": {
+        "definition": "An entity that controls, is controlled by or is under common control with a party, where 'control' means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority."
+      },
+      "Company": {
+        "definition": "Refers to Plastiliin OÜ, 10613 Tallinn, Tulika tn 15-17, korp. A, ruum 210."
+      },
+      "Cookies": {
+        "definition": "Small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses."
+      },
+      "Country": {
+        "definition": "Estonia"
+      },
+      "Device": {
+        "definition": "Any device that can access the Service such as a computer, a cellphone or a digital tablet."
+      },
+      "Personal Data": {
+        "definition": "Any information that relates to an identified or identifiable individual."
+      },
+      "Service": {
+        "definition": "Refers to the Website."
+      },
+      "Service Provider": {
+        "definition": "Any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used."
+      },
+      "Usage Data": {
+        "definition": "Data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit)."
+      },
+      "Website": {
+        "definition": "Refers to Plastiliin, accessible from plastiliin.com"
+      },
+      "You": {
+        "definition": "The individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
+      }
+    },
+
+    "contact": {
+      "title": "Contact Us",
+      "text": "If you have any questions about this Privacy Policy, You can contact us:",
+      "email": "Olga.gushchynaou@gmail.com"
+    },
+    "button_text": "Home"
+  }
+}

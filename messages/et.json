@@ -1,0 +1,336 @@
+{
+  "LocaleSwitcher": {
+    "label": "Vali keel"
+  },
+
+  "LocaleLayout": {
+    "title": "Plastiliin",
+    "description": "Tallinna laste korrektsiooni- ja arengukeskus"
+  },
+
+  "IndexPage": {
+    "meta": {
+      "title": "Plastiliin. Tallinna laste arengu- ja korrektsioonikeskus",
+      "description": "Haridus- ja arenduskeskus Tallinnas lastele ja täiskasvanutele: neurovõimlemine, logopeed, Numicon matemaatika, klaveritunnid, logopeedia, Lego ehitamine. Õpe eesti, vene, ukraina ja inglise keeles. Kohapealsed tunnid individuaalse lähenemisega igale õppijale."
+    },
+
+    "title": "Plastiliin — arenduskeskus Tallinnas | logopeed, neurovõimlemine, Numicon",
+    "about": "Plastiliin on kaasaegne õpi- ja arenduskeskus Tallinnas lastele ja täiskasvanutele. Individuaalsed tunnid: logopeed, neurovõimlemine, Numiconi matemaatika, klaver, logopeedia rütmika ja Lego ehitamine. Õpe vene, ukraina, inglise ja eesti keeles.",
+    "contact": "Võta meiega ühendust"
+  },
+
+  "Navigation": {
+    "home": "koju"
+  },
+
+  "ContactHeader": {
+    "title": "Kontaktid"
+  },
+
+  "Hero": {
+    "subtitle": "Tallinna Laste Arendus- ja Loomekeskus",
+    "title_all": "Avame teie lapse potentsiaali koos",
+    "title_1": "Avame",
+    "title_2": "teie lapse",
+    "title_3": "potentsiaali",
+    "title_4": "koos",
+
+    "link1_name": "Uurige juba täna, kuidas saame aidata!",
+    "link1_href": "https://www.picktime.com/aee93cf3-7781-4ff0-9199-36afe991ccd3"
+  },
+
+  "Metodology": {
+    "subtitle": "Metoodika",
+    "title_1": "Meie väärtused",
+    "title_2": "ja lähenemine",
+    "description": "Kasutame laste potentsiaali avastamiseks kaasaegseimaid neuropsühholoogia, paranduspedagoogika ja sensoorse motoorse integratsiooni meetodeid. Meie lähenemisviis on individuaalsed ja põnevad tunnid, mis arendavad kõnet, mõtlemist, emotsionaalset intelligentsust, motoorseid oskusi, ruumilist intelligentsust, loogikat, kujutlusvõimet ja loovust.",
+    "description_2": "Iga laps on ainulaadne ja me läheneme igaühele tähelepanu ja hoolega, luues personaalse õppe- ja arendusprogrammi maksimaalsete tulemuste saavutamiseks. Meie spetsialistid aitavad lastel areneda, nautides samal ajal õppeprotsessi!",
+    "button_text": "Liitu meiega!",
+    "button_link": "#contact"
+  },
+
+  "Programs": {
+    "section1_title": "Neurovõimlemine",
+    "section1_id": "neurogym",
+    "section1_description": "Ainulaadne ajutreeningu meetod, mille eesmärk on arendada ja parandada kognitiivseid funktsioone (mälu, tähelepanu, taju) ja koordinatsiooni. Tunnid sisaldavad harjutusi, mis aktiveerivad ja sünkroniseerivad mõlema ajupoolkera tööd, arendavad peenmotoorikat, mälu, kõnet, parandavad uue teabe tajumist ja töötlemist. Liikuvas ja põnevas vormis tunnid aitavad kaasa teie lapse igakülgsele harmoonilisele arengule.",
+    "section1_button_text": "Esita küsimus",
+    "section1_button_link": "#contact",
+    "section1_bg_color": "var(--red)",
+    "section1_bg_img": "/./programs/neiro.webp",
+    "section1_bg_img_small": "/./programs/neiro-s.webp",
+    "section1_icon": "/./programs/icons/icon/puzzle.webp",
+    "section1_icon_active": "/./programs/icons/active/puzzle-a.webp",
+
+    "section2_title": "Logo-rütmika",
+    "section2_id": "logorhythmics",
+    "section2_description": "Tõhus kõne korrigeerimise ja arendamise meetod, mis põhineb liigutuste, rütmi ja muusika kombinatsioonil. See lähenemisviis aitab kõnehäiretega lastel parandada koordinatsiooni, hingamist, artikulatsiooni ja suhtlemisoskusi.",
+    "section2_button_text": "Esita küsimus",
+    "section2_button_link": "#contact",
+    "section2_bg_color": "var(--blue)",
+    "section2_bg_img": "/./programs/rithm.webp",
+    "section2_bg_img_small": "/./programs/rithm-s.webp",
+    "section2_icon": "/./programs/icons/icon/maracas.webp",
+    "section2_icon_active": "/./programs/icons/active/maracas-a.webp",
+
+    "section3_title": "Numicon: Põnev matemaatika",
+    "section3_id": "numicon",
+    "section3_description": "Innovatiivne meetod matemaatika õppimiseks taktiilsete ja visuaalsete kujutiste abil. Tänu spetsiaalsetele plaatidele ja mängulisele lähenemisele omandavad lapsed hõlpsalt loendamise, liitmise, lahutamise ja veelgi keerukamate matemaatiliste mõistete põhitõed, arendades loogilist mõtlemist.",
+    "section3_button_text": "Esita küsimus",
+    "section3_button_link": "#contact",
+    "section3_bg_color": "var(--yellow)",
+    "section3_bg_img": "/./programs/math.webp",
+    "section3_bg_img_small": "/./programs/math-s.webp",
+    "section3_icon": "/./programs/icons/icon/abacus.webp",
+    "section3_icon_active": "/./programs/icons/active/abacus-a.webp",
+
+    "section4_title": "Eripedagoog",
+    "section4_id": "speechtherapist",
+    "section4_description": "Eripedagoogiga tunnid aitavad lastel, sh erivajadustega lastel, arendada kõnet, tähelepanu (nägemist ja kuulmist), intelligentsust ning edendada sotsiaalset kohanemist. Individuaalne lähenemine võimaldab arvestada iga lapse huvidega ning valida tõhusad parandus- ja arendusmeetodid.",
+    "section4_button_text": "Esita küsimus",
+    "section4_button_link": "#contact",
+    "section4_bg_color": "var(--green)",
+    "section4_bg_img": "/./programs/logoped.webp",
+    "section4_bg_img_small": "/./programs/logoped-s.webp",
+    "section4_icon": "/./programs/icons/icon/lamp.webp",
+    "section4_icon_active": "/./programs/icons/active/lamp-a.webp",
+
+    "section5_title": "Klaveritunnid",
+    "section5_id": "piano",
+    "section5_description": "Individuaalsed klaveritunnid lastele ja täiskasvanutele. Treening toimub positiivses õhkkonnas, arvestades lapse ettevalmistustaset ja huvisid. Klaverimäng mõjutab intellekti, emotsioone, motoorseid oskusi ja kujundab isegi isiksuseomadusi. Klaverimängu õppimine ei ole ainult nootide ja meloodiate valdamine, vaid võimas panus lapse tulevikku.",
+    "section5_button_text": "Esita küsimus",
+    "section5_button_link": "#contact",
+    "section5_bg_color": "var(--purple)",
+    "section5_bg_img": "./programs/piano.webp",
+    "section5_bg_img_small": "./programs/piano-s.webp",
+    "section5_icon": "/./programs/icons/icon/piano.webp",
+    "section5_icon_active": "/./programs/icons/active/piano-a.webp",
+
+    "section6_title": "Lego konstrueerimine",
+    "section6_id": "lego",
+    "section6_description": "Laste insenerioskuste, loovuse ja loogilise mõtlemise arendamine Lego mudelite ehitamise kaudu. Lapsed õpivad järgima ehitusjuhiseid, arendavad ruumilist mõtlemist ja kujutlusvõimet. Programm sisaldab nii vaba ehitamist kui ka projektipõhiseid ülesandeid meeskonnatöö arendamiseks.",
+    "section6_button_text": "Esita küsimus",
+    "section6_button_link": "#contact",
+    "section6_bg_color": "var(--orange)",
+    "section6_bg_img": "/./programs/lego.webp",
+    "section6_bg_img_small": "/./programs/lego-s.webp",
+    "section6_icon": "/./programs/icons/icon/lego.webp",
+    "section6_icon_active": "/./programs/icons/active/lego-a.webp"
+  },
+
+  "Testimonials": {
+    "section_title": "Arvustused",
+    "title": "Me oleme töötanud imetoredate inimestega",
+
+    "testimonial1_description": "Tänu suurepärastele tundidele eripedagoogiga on mu pojal nüüd lihtsam suhelda. Individuaalne lähenemine on minu jaoks väga oluline. Hindan spetsialisti kannatlikkust ja professionaalsust.",
+    "testimonial1_author_name": "Anna",
+    "testimonial1_author_status": "Sasha ema (4 aastat)",
+    "testimonial1_bg_color": "var(--yellow)",
+
+    "testimonial2_description": "Neurovõimlemistunnid on oluliselt mõjutanud mu tütre arengut. Ta on muutunud oma võimetes enesekindlamaks ja oleme õpetaja hooliva lähenemise eest tänulikud.",
+    "testimonial2_author_name": "Irina",
+    "testimonial2_author_status": "Darina ema (6 aastat)",
+    "testimonial2_bg_color": "var(--green)",
+
+    "testimonial3_description": "Mu poeg armastab mängupõhist õpet! Aktiivsed mängud köidavad teda ja ma näen märkimisväärseid edusamme tema kõne arengus. Olen tulemustega väga rahul!",
+    "testimonial3_author_name": "Mikhail",
+    "testimonial3_author_status": "Mark isa (3 aastat)",
+    "testimonial3_bg_color": "var(--blue)",
+
+    "testimonial4_description": "Alinale meeldivad neurovõimlemise tunnid väga. Need aitasid mu tütrel koordinatsiooni ja keskendumisvõimet parandada. Harjutused on huvitavad ja tõesti tõhusad!",
+    "testimonial4_author_name": "Tatjana",
+    "testimonial4_author_status": "Alina ema (5 aastat)",
+    "testimonial4_bg_color": "var(--red)",
+
+    "testimonial5_description": "Mu poeg on juba mitu kuud klaverit õppinud ja naudib seda tohutult. Ta mitte ainult ei õpi klaverit mängima, vaid arendab ka oma loomingulist potentsiaali.",
+    "testimonial5_author_name": "Mira",
+    "testimonial5_author_status": "Stas ema (9 aastat)",
+    "testimonial5_bg_color": "var(--orange)",
+
+    "testimonial6_description": "Matemaatikatunnid Numiconi abil on suurepärased! Mu poeg õpib matemaatikamõisteid lõbusal ja loomingulisel viisil. See lähenemine aitab tal abstraktsetest mõistetest paremini aru saada.",
+    "testimonial6_author_name": "Natalja",
+    "testimonial6_author_status": "Anton ema (7 aastat)",
+    "testimonial6_bg_color": "var(--purple)",
+
+    "testimonial7_description": "Neurovõimlemise tunnid on avaldanud positiivset mõju mu poja käitumisele ja tema keskendumisvõimele koolis. Ta on muutunud rahulikumaks ja suudab kauem keskenduda. Soovitan seda!",
+    "testimonial7_author_name": "Olha",
+    "testimonial7_author_status": "Nikita ema (8 aastat)",
+    "testimonial7_bg_color": "var(--yellow)",
+
+    "testimonial8_description": "Suur tänu logopeedile produktiivsete tundide eest mu pojaga. Mu poeg käib tundides rõõmuga ja ei taha pärast lahkuda.",
+    "testimonial8_author_name": "Viktorija",
+    "testimonial8_author_status": "Ivan ema (4 aastat)",
+    "testimonial8_bg_color": "var(--green)",
+
+    "testimonial9_description": "Mu tütar alustas klaverimängu nullist ja nüüd mängib ta kauneid meloodiaid. Tema õpetaja on kannatlik ja loominguline. Näen iga tunniga tema oskuste paranemist.",
+    "testimonial9_author_name": "Lilija",
+    "testimonial9_author_status": "Olivia ema (10 aastat)",
+    "testimonial9_bg_color": "var(--blue)"
+  },
+
+  "Team": {
+    "title": "Meist",
+
+    "1_member_name": "Olga Gushchyna",
+    "1_member_description": "Logopeed-defektoloog, eripedagoog ja Numiconi meetodil põhinevate matemaatiliste oskuste arendamise spetsialist. Samuti on ta neurovõimlemise ekspert.",
+    "1_member_subtitle": "Moto:",
+    "1_member_ideea": "Laste õppimise võti on luua protsess, kus nad ei märka pingutust ja arenevad rõõmuga.",
+    "2_member_name": "Olga Lanska",
+    "2_member_description": "Logo-rütmika, laste loovate võimete arendamise ja klaveriõpetuse spetsialist. Tema metoodika aitab lastel avada oma potentsiaali, muutes õppimise põnevaks teekonnaks.",
+    "2_member_subtitle": "Moto:",
+    "2_member_ideea": "Armastus, aktsepteerimine, mõistmine, toetus ja veidi loovust teevad hariduses imesid."
+  },
+
+  "Price": {
+    "subtitle": "Hinnakujundus",
+    "title": "Õpe, mis toob tulemusi – taskukohase hinnaga!",
+    "description": "Valige oma lapsele sobiv õppevorm! Pakume individuaalseid ja grupitunde, mis on kohandatud erinevatele vanuserühmadele ja treeningtasemetele. Paindlikud hinnad ja tõhusad meetodid aitavad teil saavutada parimaid tulemusi.",
+
+    "card_1_name": "Isiklikud tunnid",
+    "card_1_id": "tier-hobby",
+    "card_1_href": "https://www.picktime.com/aee93cf3-7781-4ff0-9199-36afe991ccd3",
+    "card_1_buttomn_title": "Broneeri aeg",
+    "card_1_priceMonthly": "20 €",
+    "card_1_priceTime": "/ 30 minutit",
+    "card_1_description": "Personaliseeritud individuaalsed tunnid, mis on kohandatud teie lapse taseme ja vajadustega. Maksimaalne tähelepanu õpetajalt ja individuaalne lähenemine kiireks edusammuks.",
+    "card_1_feature_1": "Isiklik õppeprogramm",
+    "card_1_feature_2": "Paindlik õppeaeg",
+    "card_1_feature_3": "Keskendumine tugevustele ja arenguvajadustele",
+    "card_1_feature_4": "Tulemused lühikese aja jooksul",
+
+    "card_2_name": "Väikesed grupitunnid",
+    "card_2_id": "tier-team",
+    "card_2_href": "https://www.picktime.com/aee93cf3-7781-4ff0-9199-36afe991ccd3",
+    "card_2_buttomn_title": "Broneeri aeg",
+    "card_2_priceMonthly": "10 €",
+    "card_2_priceTime": "/ 50 minutit",
+    "card_2_description": "Dünaamilised tunnid väikestes gruppides, mis loovad toetava õhkkonna õppimiseks. Arendame koostöö- ja vastastikuse toetuse oskusi.",
+    "card_2_feature_1": "Väikesed grupid (kuni 4 last)",
+    "card_2_feature_2": "Koostöö eakaaslastega",
+    "card_2_feature_3": "Motivatsioon ja meeskonnatunne",
+    "card_2_feature_4": "Kommunikatsiooni oskuste arendamine",
+    "card_2_feature_5": "Taskukohane hind",
+
+    "extra_card_subtitle": "Ei oska valida, mis sobib kõige paremini?",
+    "extra_card_description": "Jätke päring ja me aitame valida teie lapse vajadustele sobiva õppevormi."
+  },
+
+  "Contact": {
+    "title": "Võta meiega ühendust",
+    "subtitle": "kontaktid",
+    "description_title": "Ootame sind meie tundidesse!",
+    "description": "Täida vorm, registreeru ja liitu meiega juba täna!",
+    "description_2": "Tunnid toimuvad mugavas asukohas Tallinna kesklinnas, vaid mõne sammu kaugusel Ülase ja Taksopargi peatusest (buss, troll).",
+    "description_3": "Tasuta parkimine kuni 2 tundi parkimismõõdikute juures hoone sissepääsu ees.",
+    "description_links": "Jälgi meid sotsiaalmeedias!",
+
+    "address_title": "Aadress",
+    "adress": "10613 Tallinn, Tulika tn 15-17, korp. A, ruum 210",
+    "adress_buttnon": "Vaata Google Mapsist",
+    "adress_link": "https://www.google.com/maps/place/O%C3%9C+Plastiliin/@59.4297083,24.7191264,16z/data=!4m6!3m5!1s0x4692955decfdb183:0xa39c8f4813bc236e!8m2!3d59.4298162!4d24.7193964!16s%2Fg%2F11lzhbn9z1?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D",
+    "phone_title": "Telefon",
+    "phone": "+3 (72) 58302501",
+    "email_title": "E-post",
+    "email": "Olga.gushchynaou@gmail.com",
+
+    "form_first_name": "Eesnimi",
+    "form_last_name": "Perekonnanimi",
+    "from_email": "E-post",
+    "form_phone_number": "Telefoninumber",
+    "form_message": "Sõnum",
+    "form_button_txt": "Saada",
+    "form_terms": "Olen lugenud tingimusi ja nõustun sisestatud andmete edastamisega.",
+
+    "errors_firstNameRequired": "Eesnimi ei tohi olla tühi.",
+    "errors_firstNameInvalid": "Eesnimi peab sisaldama ainult tähti.",
+    "errors_lastNameRequired": "Perekonnanimi ei tohi olla tühi.",
+    "errors_lastNameInvalid": "Perekonnanimi peab sisaldama ainult tähti.",
+    "errors_emailRequired": "E-post ei tohi olla tühi.",
+    "errors_emailInvalid": "Vigane e-posti formaat.",
+    "errors_phoneRequired": "Telefoninumber ei tohi olla tühi.",
+    "errors_phoneInvalid": "Telefoninumber peab sisaldama 10–15 numbrit.",
+    "errors_messageRequired": "Sõnum ei tohi olla tühi.",
+    "errors_messageShort": "Sõnum peab olema vähemalt 10 tähemärki pikk.",
+    "errors_messageLong": "Sõnum ei tohi olla pikem kui 500 tähemärki.",
+    "errors_termsRequired": "Enne saatmist peate nõustuma tingimustega.",
+
+    "form_success_title": "Sõnum saadetud!",
+    "form_success_text": "Oleme sinu päringu kätte saanud ja võtame peagi ühendust.",
+    "form_error_sending_title": "Ups! Midagi läks nihu",
+    "form_error_sending_description": "Tundub, et sõnum eksis ära internetiavarustes... Proovi uuesti natukese aja pärast!",
+    "form_modal_button_txt": "Sulge"
+  },
+
+  "Footer": {
+    "copyright": "2025 OÜ Plastiliin. Kõik õigused kaitstud",
+    "create": "Disain ja arendus: Dvi",
+    "create_link": "https://www.instagram.com/olga_tenison/",
+    "policy": "Privaatsuspoliitika"
+  },
+
+  "Cookies": {
+    "title": "Küpsised meeldivad?",
+    "text": "Sinu kasutajakogemuse parandamiseks kasutame oma veebilehel mitut tüüpi küpsiseid. Kui teil küpsiste vastu midagi ei ole, siis palun nõustuge küpsiste kasutamisega.",
+    "buttonaccepted": "Nõustu kõigiga",
+    "buttonrejected": "Keeldu kõigist"
+  },
+
+  "PrivacyPolicyPage": {
+    "subtitle": "Privaatsuspoliitika",
+    "title": "Privaatsuspoliitika",
+    "last_updated": "Viimati uuendatud: 17. aprill 2025",
+    "intro_text": "See privaatsuspoliitika kirjeldab meie põhimõtteid ja protseduure teie teabe kogumise, kasutamise ja avalikustamise kohta teenuse kasutamisel ning selgitab teie privaatsusõigusi ja seda, kuidas seadus teid kaitseb.",
+
+    "interpretation_title": "Tõlgendused ja määratlused",
+    "interpretation_text": "Sõnad, mille esitäht on suur, omavad tähendusi, mis on määratletud allpool toodud tingimustes. Neil määratlustel on sama tähendus, olenemata sellest, kas neid kasutatakse ainsuses või mitmuses.",
+
+    "definitions_title": "Määratlused",
+    "definitions_intro": "Selle privaatsuspoliitika eesmärgil:",
+
+    "definitions": {
+      "Account": {
+        "definition": "Unikaalne konto, mis on loodud selleks, et saaksite teenusele või selle osadele juurde pääseda."
+      },
+      "Affiliate": {
+        "definition": "Isik või üksus, kes kontrollib, on kontrollitav või on ühise kontrolli all teise osapoolega, kus \"kontroll\" tähendab 50% või enama hääleõigusega osaluse või aktsiate omamist juhatuse või muu juhtorgani valimisel."
+      },
+      "Company": {
+        "definition": "Tähendab Plastiliin OÜ, Tulika tn 15-17, korpus A, ruum 210, 10613 Tallinn."
+      },
+      "Cookies": {
+        "definition": "Väikesed failid, mis salvestatakse teie arvutisse, mobiilseadmesse või muusse seadmesse veebisaidi poolt ja mis sisaldavad andmeid teie sirvimisajaloo kohta."
+      },
+      "Country": {
+        "definition": "Eesti"
+      },
+      "Device": {
+        "definition": "Igasugune seade, mis võimaldab juurdepääsu teenusele, näiteks arvuti, mobiiltelefon või tahvelarvuti."
+      },
+      "Personal Data": {
+        "definition": "Igasugune teave, mis puudutab tuvastatud või tuvastatavat isikut."
+      },
+      "Service": {
+        "definition": "Tähendab veebisaiti."
+      },
+      "Service Provider": {
+        "definition": "Iga füüsiline või juriidiline isik, kes töötleb andmeid ettevõtte nimel. See võib olla kolmas osapool või teenuseosutaja, kes aitab ettevõttel teenust osutada või analüüsida selle kasutust."
+      },
+      "Usage Data": {
+        "definition": "Andmed, mida kogutakse automaatselt teenuse kasutamise ajal või teenuse infrastruktuurist (näiteks lehe külastuse kestus)."
+      },
+      "Website": {
+        "definition": "Tähendab veebisaiti Plastiliin, mis on kättesaadav aadressil plastiliin.com"
+      },
+      "You": {
+        "definition": "Isik, kes kasutab teenust või pääseb sellele ligi, või ettevõte või muu juriidiline isik, kelle nimel seda tehakse, kui see on asjakohane."
+      }
+    },
+
+    "contact": {
+      "title": "Võta meiega ühendust",
+      "text": "Kui teil on küsimusi selle privaatsuspoliitika kohta, võtke meiega ühendust:",
+      "email": "Olga.gushchynaou@gmail.com"
+    },
+
+    "button_text": "Avaleht"
+  }
+}

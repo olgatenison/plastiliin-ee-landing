@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { Locale, routing } from "@/i18n/routing";
+import { Locale, routing } from "../../i18n/routing";
 import { getMessages, getTranslations } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import "../globals.css";
@@ -21,6 +21,9 @@ export async function generateMetadata({
     robots: {
       index: true,
       follow: true,
+    },
+    other: {
+      "facebook-domain-verification": "3hmvxi1safquaqaivhtlyl22ts2oq7",
     },
   };
 }

@@ -1,196 +1,3 @@
-// "use client";
-// import Image from "next/image";
-// import { useState } from "react";
-// import { useTranslations } from "next-intl";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Swiper as SwiperInstance } from "swiper";
-// import { Autoplay, Keyboard, Mousewheel } from "swiper/modules";
-// import "swiper/css";
-
-// export default function Programs() {
-//   const t = useTranslations("Programs");
-
-//   const sections = ["1", "2", "3", "4", "5", "6"].map((i) => ({
-//     id: t(`section${i}_id`),
-//     title: t(`section${i}_title`),
-//     description: t(`section${i}_description`),
-//     buttonText: t(`section${i}_button_text`),
-//     buttonLink: t(`section${i}_button_link`),
-//     bgColor: t(`section${i}_bg_color`),
-//     bgImg: t(`section${i}_bg_img`),
-//     bgImgS: t(`section${i}_bg_img_small`),
-//     icon: t(`section${i}_icon`),
-//     iconActive: t(`section${i}_icon_active`),
-//   }));
-
-//   const [activeSection, setActiveSection] = useState(0);
-//   const [swiperInstance, setSwiperInstance] = useState<SwiperInstance | null>(
-//     null
-//   );
-
-//   const handleTabClick = (index: number) => {
-//     setActiveSection(index);
-//     swiperInstance?.slideTo(index);
-//   };
-
-//   return (
-//     <section
-//       className="bg-gradient-to-b from-[#f7c44b] to-sky-400"
-//       aria-label="Programs section"
-//     >
-//       <Swiper
-//         modules={[Autoplay, Keyboard, Mousewheel]}
-//         autoplay={{
-//           delay: 4000,
-//           disableOnInteraction: false,
-//           pauseOnMouseEnter: true,
-//         }}
-//         speed={1000}
-//         keyboard={{ enabled: true }}
-//         spaceBetween={0}
-//         slidesPerView={1}
-//         onSlideChange={(swiper) => setActiveSection(swiper.realIndex)}
-//         onSwiper={setSwiperInstance}
-//         role="region"
-//         aria-label="Programs carousel"
-//       >
-//         {sections.map((section) => (
-//           <SwiperSlide key={section.id}>
-//             <div
-//               id={`panel-${section.id}`}
-//               aria-labelledby={`tab-${section.id}`}
-//               tabIndex={-1}
-//               role="tabpanel"
-//               className="max-w-7xl mx-auto pt-8"
-//               style={{
-//                 background: `radial-gradient(ellipse at center, ${section.bgColor}30%, rgba(0,0,0,0) 70%)`,
-//               }}
-//             >
-//               <div className="mx-auto max-w-7xl">
-//                 <div className="flex flex-col lg:flex-row justify-between gap-12 px-6 lg:px-8">
-//                   {/* Tabs */}
-//                   <div className="flex flex-col pb-6 lg:pb-20 mx-auto max-w-2xl lg:max-w-full">
-//                     <div
-//                       className="flex gap-4 flex-wrap items-center mb-6 sm:mb-14 mx-auto md:mx-0"
-//                       role="tablist"
-//                       aria-label="Program navigation"
-//                     >
-//                       {sections.map((s, j) => {
-//                         const isActive = activeSection === j;
-//                         const handleKeyDown = (
-//                           e: React.KeyboardEvent<HTMLButtonElement>
-//                         ) => {
-//                           if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
-//                             e.preventDefault();
-//                             const newIndex =
-//                               e.key === "ArrowRight"
-//                                 ? (j + 1) % sections.length
-//                                 : (j - 1 + sections.length) % sections.length;
-//                             setActiveSection(newIndex);
-//                             swiperInstance?.slideTo(newIndex);
-//                             document
-//                               .getElementById(`tab-${sections[newIndex].id}`)
-//                               ?.focus();
-//                           }
-//                         };
-//                         return (
-//                           <button
-//                             key={s.id}
-//                             id={`tab-${s.id}`}
-//                             aria-controls={`panel-${s.id}`}
-//                             onClick={() => handleTabClick(j)}
-//                             onKeyDown={handleKeyDown}
-//                             role="tab"
-//                             aria-selected={isActive}
-//                             tabIndex={isActive ? 0 : -1}
-//                             aria-label={s.title}
-//                             className={`relative p-2 rounded-full shadow-lg focus-visible:outline-black ${
-//                               isActive
-//                                 ? "border-2 border-white bg-opacity-20 bg-white"
-//                                 : "bg-white hover:bg-opacity-80"
-//                             }`}
-//                             style={{
-//                               width: isActive ? "100px" : "80px",
-//                               height: isActive ? "100px" : "80px",
-//                               overflow: "visible",
-//                             }}
-//                           >
-//                             <Image
-//                               src={isActive ? s.iconActive : s.icon}
-//                               alt=""
-//                               aria-hidden="true"
-//                               width={isActive ? 100 : 80}
-//                               height={isActive ? 100 : 80}
-//                               className={`transition-all ${
-//                                 isActive ? "w-[100px] h-[100px]" : "w-26 h-26"
-//                               }`}
-//                               style={{
-//                                 position: isActive ? "absolute" : "relative",
-//                                 zIndex: isActive ? 10 : 1,
-//                                 objectFit: "contain",
-//                                 top: "50%",
-//                                 left: "50%",
-//                                 transform: "translate(-50%, -50%)",
-//                               }}
-//                             />
-//                           </button>
-//                         );
-//                       })}
-//                     </div>
-
-//                     {/* Text */}
-//                     <div className="max-w-2xl lg:pr-6">
-//                       <h2 className="text-3xl sm:text-6xl font-semibold tracking-tight mb-6 lg:mb-10 text-white">
-//                         {section.title}
-//                       </h2>
-//                       <p
-//                         className="text-base/8 sm:text-lg/8 lg:text-xl/8 font-normal text-white pb-12 text-justify"
-//                         aria-live="polite"
-//                         aria-atomic="true"
-//                       >
-//                         {section.description}
-//                       </p>
-//                       <a
-//                         href={section.buttonLink}
-//                         className="text-lg font-semibold text-white py-3 px-6 text-center block rounded-md w-full bg-white/20 backdrop-blur-md shadow-md transition duration-300 ease-in-out hover:bg-white/30 hover:shadow-lg focus-visible:outline-black"
-//                         aria-label={`More about ${section.title}`}
-//                       >
-//                         {section.buttonText}
-//                       </a>
-//                     </div>
-//                   </div>
-
-//                   {/* Image */}
-//                   <div className="relative w-full max-w-[672px] h-[250px] sm:h-[450px] lg:w-[450px] lg:h-[600px] lg:max-w-2xl mx-auto flex justify-center items-center">
-//                     <div
-//                       className="absolute inset-0 bg-cover bg-center lg:hidden rounded-lg shadow-lg"
-//                       aria-hidden="true"
-//                       style={{
-//                         backgroundImage: section.bgImgS.startsWith("/")
-//                           ? `url(${section.bgImgS})`
-//                           : `url(/${section.bgImgS})`,
-//                       }}
-//                     />
-//                     <div
-//                       className="absolute inset-0 bg-cover bg-center hidden lg:block rounded-lg"
-//                       aria-hidden="true"
-//                       style={{
-//                         backgroundImage: section.bgImg.startsWith("/")
-//                           ? `url(${section.bgImg})`
-//                           : `url(/${section.bgImg})`,
-//                       }}
-//                     />
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           </SwiperSlide>
-//         ))}
-//       </Swiper>
-//     </section>
-//   );
-// }
-
 "use client";
 import Image from "next/image";
 import { useState } from "react";
@@ -229,7 +36,7 @@ export default function Programs() {
 
   return (
     <section
-      className="bg-gradient-to-b from-[#f7c44b] to-sky-400"
+      className="bg-linear-to-b from-[#f7c44b] to-sky-400"
       aria-label="Programs section"
     >
       {/* Tabs rendered once */}
@@ -288,7 +95,7 @@ export default function Programs() {
                   width={isActive ? 100 : 80}
                   height={isActive ? 100 : 80}
                   className={`transition-all ${
-                    isActive ? "w-[100px] h-[100px]" : "w-26 h-26"
+                    isActive ? "w-25 h-25" : "w-26 h-26"
                   }`}
                   style={{
                     position: isActive ? "absolute" : "relative",
@@ -357,7 +164,7 @@ export default function Programs() {
                 </div>
 
                 {/* Image */}
-                <div className="relative w-full max-w-[672px] h-[250px] sm:h-[450px] lg:w-[450px] lg:h-[600px] lg:max-w-2xl mx-auto flex justify-center items-center -mt-0 lg:-mt-32">
+                <div className="relative w-full max-w-2xl h-62.5 sm:h-112.5 lg:w-112.5 lg:h-150 lg:max-w-2xl mx-auto flex justify-center items-center mt-0 lg:-mt-32">
                   <div
                     className="absolute inset-0 bg-cover bg-center lg:hidden rounded-lg shadow-lg "
                     aria-hidden="true"

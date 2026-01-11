@@ -28,6 +28,7 @@
   },
 
   "Hero": {
+    "hidden": "Plastiliin — korrektsiooni- ja arenduskeskus Tallinnas | logopeed, neurovõimlemine, Numicon",
     "subtitle": "Tallinna Laste Arendus- ja Loomekeskus",
     "title_all": "Avame teie lapse potentsiaali koos",
     "title_1": "Avame",
@@ -261,9 +262,9 @@
   },
 
   "Footer": {
-    "copyright": "2025 OÜ Plastiliin. Kõik õigused kaitstud",
+    "copyright": "2026 OÜ Plastiliin. Kõik õigused kaitstud Reg.Nr.:  17104206, KMKR: EE102838303. ",
     "create": "Disain ja arendus: Dvi",
-    "create_link": "https://www.instagram.com/olga_tenison/",
+    "create_link": "https://dvi.digital",
     "policy": "Privaatsuspoliitika"
   },
 
@@ -294,7 +295,7 @@
         "definition": "Isik või üksus, kes kontrollib, on kontrollitav või on ühise kontrolli all teise osapoolega, kus \"kontroll\" tähendab 50% või enama hääleõigusega osaluse või aktsiate omamist juhatuse või muu juhtorgani valimisel."
       },
       "Company": {
-        "definition": "Tähendab Plastiliin OÜ, Tulika tn 15-17, korpus A, ruum 210, 10613 Tallinn."
+        "definition": "Tähendab Plastiliin OÜ, Tulika tn 15-17, korpus A, ruum 210, 10613 Tallinn. Reg.Nr.:  17104206, KMKR: EE102838303. "
       },
       "Cookies": {
         "definition": "Väikesed failid, mis salvestatakse teie arvutisse, mobiilseadmesse või muusse seadmesse veebisaidi poolt ja mis sisaldavad andmeid teie sirvimisajaloo kohta."
@@ -318,7 +319,7 @@
         "definition": "Andmed, mida kogutakse automaatselt teenuse kasutamise ajal või teenuse infrastruktuurist (näiteks lehe külastuse kestus)."
       },
       "Website": {
-        "definition": "Tähendab veebisaiti Plastiliin, mis on kättesaadav aadressil plastiliin.com"
+        "definition": "Tähendab veebisaiti Plastiliin, mis on kättesaadav aadressil plastiliin.ee"
       },
       "You": {
         "definition": "Isik, kes kasutab teenust või pääseb sellele ligi, või ettevõte või muu juriidiline isik, kelle nimel seda tehakse, kui see on asjakohane."
